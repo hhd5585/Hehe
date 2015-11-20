@@ -14,8 +14,15 @@
 
 @implementation ViewController
 
+- (void)viewWillAppear:(BOOL)animated
+{
+    [super viewWillAppear:animated];
+    NSLog(@"视图将要出现!!!");
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
+    NSLog(@"测试输出");
     // Do any additional setup after loading the view, typically from a nib.
 }
 
